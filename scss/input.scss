@@ -159,7 +159,7 @@ a.btn-blue, a.btn-grey {
 
 a.btn-blue {
     background: #55acee;
-    border: 1px solid #408ac2;
+    border-bottom: 1px solid #408ac2;
 
     &:hover {
         background: #4d9fde;
@@ -168,7 +168,7 @@ a.btn-blue {
 
 a.btn-grey {
     background: #ddd;
-    border: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
 
     &:hover {
         background: #ccc;

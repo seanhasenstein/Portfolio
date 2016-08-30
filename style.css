@@ -6528,10 +6528,10 @@ footer {
         background: #3b5998;
         color: #fff; }
     footer .social i.fa.fa-instagram {
-      border: 2px solid #F9390A;
-      color: #F9390A; }
+      border: 2px solid #e95950;
+      color: #e95950; }
       footer .social i.fa.fa-instagram:hover {
-        background: #F9390A;
+        background: #e95950;
         color: #fff; }
     footer .social i.fa.fa-linkedin {
       border: 2px solid #1B86BC;
@@ -6539,6 +6539,24 @@ footer {
       footer .social i.fa.fa-linkedin:hover {
         background: #1B86BC;
         color: #fff; }
+    footer .social i.fa.fa-github {
+      color: #000;
+      border: 2px solid #000;
+      margin: 0 5px;
+      border-radius: 40px;
+      font-size: 26px;
+      background: transparent;
+      -webkit-transition: all 170ms ease-in-out;
+      -moz-transition: all 170ms ease-in-out;
+      -o-transition: all 170ms ease-in-out;
+      transition: all 170ms ease-in-out;
+      padding: 8px 10px; }
+      footer .social i.fa.fa-github:hover {
+        background: #000;
+        color: #fff; }
+    footer .social i.fa.fa-envelope, footer .social i.fa.fa-twitter, footer .social i.fa.fa-facebook, footer .social i.fa.fa-instagram, footer .social i.fa.fa-linkedin, footer .social i.fa.fa-github {
+      height: 48px;
+      width: 48px; }
 
 body {
   padding: 25px 0; }
@@ -6657,13 +6675,13 @@ a.btn-blue, a.btn-grey {
 
 a.btn-blue {
   background: #55acee;
-  border: 1px solid #408ac2; }
+  border-bottom: 1px solid #408ac2; }
   a.btn-blue:hover {
     background: #4d9fde; }
 
 a.btn-grey {
   background: #ddd;
-  border: 1px solid #cbcbcb; }
+  border-bottom: 1px solid #cbcbcb; }
   a.btn-grey:hover {
     background: #ccc; }
 
